@@ -1,0 +1,414 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		68D68D242576E2E70050FC5D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 68D68D232576E2E70050FC5D /* AppDelegate.m */; };
+		68D68D272576E2E70050FC5D /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 68D68D262576E2E70050FC5D /* SceneDelegate.m */; };
+		68D68D2A2576E2E70050FC5D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 68D68D292576E2E70050FC5D /* ViewController.m */; };
+		68D68D2D2576E2E70050FC5D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 68D68D2B2576E2E70050FC5D /* Main.storyboard */; };
+		68D68D2F2576E2ED0050FC5D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 68D68D2E2576E2ED0050FC5D /* Assets.xcassets */; };
+		68D68D322576E2ED0050FC5D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 68D68D302576E2ED0050FC5D /* LaunchScreen.storyboard */; };
+		68D68D352576E2ED0050FC5D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 68D68D342576E2ED0050FC5D /* main.m */; };
+		68D68D492576E5870050FC5D /* HBCard.m in Sources */ = {isa = PBXBuildFile; fileRef = 68D68D482576E5870050FC5D /* HBCard.m */; };
+		68D68D4E2576EA870050FC5D /* HBCardViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 68D68D4D2576EA870050FC5D /* HBCardViewController.m */; };
+		68D68D5A2576FF6A0050FC5D /* HBViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68D68D592576FF6A0050FC5D /* HBViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		68D68D1F2576E2E70050FC5D /* DeckOfCards-C.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "DeckOfCards-C.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		68D68D222576E2E70050FC5D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		68D68D232576E2E70050FC5D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		68D68D252576E2E70050FC5D /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		68D68D262576E2E70050FC5D /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		68D68D282576E2E70050FC5D /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		68D68D292576E2E70050FC5D /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		68D68D2C2576E2E70050FC5D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		68D68D2E2576E2ED0050FC5D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		68D68D312576E2ED0050FC5D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		68D68D332576E2ED0050FC5D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		68D68D342576E2ED0050FC5D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		68D68D472576E5870050FC5D /* HBCard.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HBCard.h; sourceTree = "<group>"; };
+		68D68D482576E5870050FC5D /* HBCard.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HBCard.m; sourceTree = "<group>"; };
+		68D68D4C2576EA870050FC5D /* HBCardViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HBCardViewController.h; sourceTree = "<group>"; };
+		68D68D4D2576EA870050FC5D /* HBCardViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HBCardViewController.m; sourceTree = "<group>"; };
+		68D68D592576FF6A0050FC5D /* HBViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HBViewController.swift; sourceTree = "<group>"; };
+		68D68D5C2576FFA10050FC5D /* DeckOfCards-C-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "DeckOfCards-C-Bridging-Header.h"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		68D68D1C2576E2E70050FC5D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		68D68D162576E2E70050FC5D = {
+			isa = PBXGroup;
+			children = (
+				68D68D212576E2E70050FC5D /* DeckOfCards-C */,
+				68D68D202576E2E70050FC5D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		68D68D202576E2E70050FC5D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				68D68D1F2576E2E70050FC5D /* DeckOfCards-C.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		68D68D212576E2E70050FC5D /* DeckOfCards-C */ = {
+			isa = PBXGroup;
+			children = (
+				68D68D3C2576E2FA0050FC5D /* Models */,
+				68D68D3E2576E3170050FC5D /* Model Controller */,
+				68D68D3D2576E3080050FC5D /* View Controller */,
+				68D68D3F2576E3240050FC5D /* Views */,
+				68D68D402576E3340050FC5D /* Resources */,
+				68D68D302576E2ED0050FC5D /* LaunchScreen.storyboard */,
+				68D68D342576E2ED0050FC5D /* main.m */,
+			);
+			path = "DeckOfCards-C";
+			sourceTree = "<group>";
+		};
+		68D68D3C2576E2FA0050FC5D /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				68D68D472576E5870050FC5D /* HBCard.h */,
+				68D68D482576E5870050FC5D /* HBCard.m */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		68D68D3D2576E3080050FC5D /* View Controller */ = {
+			isa = PBXGroup;
+			children = (
+				68D68D5C2576FFA10050FC5D /* DeckOfCards-C-Bridging-Header.h */,
+				68D68D592576FF6A0050FC5D /* HBViewController.swift */,
+			);
+			path = "View Controller";
+			sourceTree = "<group>";
+		};
+		68D68D3E2576E3170050FC5D /* Model Controller */ = {
+			isa = PBXGroup;
+			children = (
+				68D68D4C2576EA870050FC5D /* HBCardViewController.h */,
+				68D68D4D2576EA870050FC5D /* HBCardViewController.m */,
+			);
+			path = "Model Controller";
+			sourceTree = "<group>";
+		};
+		68D68D3F2576E3240050FC5D /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				68D68D2B2576E2E70050FC5D /* Main.storyboard */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		68D68D402576E3340050FC5D /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				68D68D332576E2ED0050FC5D /* Info.plist */,
+				68D68D222576E2E70050FC5D /* AppDelegate.h */,
+				68D68D232576E2E70050FC5D /* AppDelegate.m */,
+				68D68D252576E2E70050FC5D /* SceneDelegate.h */,
+				68D68D262576E2E70050FC5D /* SceneDelegate.m */,
+				68D68D282576E2E70050FC5D /* ViewController.h */,
+				68D68D292576E2E70050FC5D /* ViewController.m */,
+				68D68D2E2576E2ED0050FC5D /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		68D68D1E2576E2E70050FC5D /* DeckOfCards-C */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 68D68D382576E2ED0050FC5D /* Build configuration list for PBXNativeTarget "DeckOfCards-C" */;
+			buildPhases = (
+				68D68D1B2576E2E70050FC5D /* Sources */,
+				68D68D1C2576E2E70050FC5D /* Frameworks */,
+				68D68D1D2576E2E70050FC5D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "DeckOfCards-C";
+			productName = "DeckOfCards-C";
+			productReference = 68D68D1F2576E2E70050FC5D /* DeckOfCards-C.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		68D68D172576E2E70050FC5D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = HB;
+				LastUpgradeCheck = 1210;
+				TargetAttributes = {
+					68D68D1E2576E2E70050FC5D = {
+						CreatedOnToolsVersion = 12.1;
+						LastSwiftMigration = 1210;
+					};
+				};
+			};
+			buildConfigurationList = 68D68D1A2576E2E70050FC5D /* Build configuration list for PBXProject "DeckOfCards-C" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 68D68D162576E2E70050FC5D;
+			productRefGroup = 68D68D202576E2E70050FC5D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				68D68D1E2576E2E70050FC5D /* DeckOfCards-C */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		68D68D1D2576E2E70050FC5D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				68D68D322576E2ED0050FC5D /* LaunchScreen.storyboard in Resources */,
+				68D68D2F2576E2ED0050FC5D /* Assets.xcassets in Resources */,
+				68D68D2D2576E2E70050FC5D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		68D68D1B2576E2E70050FC5D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				68D68D4E2576EA870050FC5D /* HBCardViewController.m in Sources */,
+				68D68D492576E5870050FC5D /* HBCard.m in Sources */,
+				68D68D2A2576E2E70050FC5D /* ViewController.m in Sources */,
+				68D68D5A2576FF6A0050FC5D /* HBViewController.swift in Sources */,
+				68D68D242576E2E70050FC5D /* AppDelegate.m in Sources */,
+				68D68D352576E2ED0050FC5D /* main.m in Sources */,
+				68D68D272576E2E70050FC5D /* SceneDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		68D68D2B2576E2E70050FC5D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				68D68D2C2576E2E70050FC5D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		68D68D302576E2ED0050FC5D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				68D68D312576E2ED0050FC5D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		68D68D362576E2ED0050FC5D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		68D68D372576E2ED0050FC5D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		68D68D392576E2ED0050FC5D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "DeckOfCards-C/Resources/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "heli.bavishi.DeckOfCards-C";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "DeckOfCards-C/View Controller/DeckOfCards-C-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		68D68D3A2576E2ED0050FC5D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "DeckOfCards-C/Resources/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "heli.bavishi.DeckOfCards-C";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "DeckOfCards-C/View Controller/DeckOfCards-C-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		68D68D1A2576E2E70050FC5D /* Build configuration list for PBXProject "DeckOfCards-C" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				68D68D362576E2ED0050FC5D /* Debug */,
+				68D68D372576E2ED0050FC5D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		68D68D382576E2ED0050FC5D /* Build configuration list for PBXNativeTarget "DeckOfCards-C" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				68D68D392576E2ED0050FC5D /* Debug */,
+				68D68D3A2576E2ED0050FC5D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 68D68D172576E2E70050FC5D /* Project object */;
+}
